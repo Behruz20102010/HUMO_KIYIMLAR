@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: #458FF6;
+  padding: 15px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.section-title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.Behruz {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.Behruz_1 {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.Behruz_1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.Behruz_2 {
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  background: #458FF6;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background: #326fcc;
+}
+
+#cart {
+  background: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#cart h2 {
+  margin-bottom: 20px;
+}
+
+#cart-items li {
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .Behruz {
+    gap: 15px;
+  }
+}
